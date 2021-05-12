@@ -1,0 +1,66 @@
+html{
+  height: 100%;
+}
+body{
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+.hidden{
+  display: none;
+}
+/* start over right CSS */
+.bg-light {
+    background-color: #1f4366 !important;
+    border-color: #000;
+		color: white!important;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    border-radius: 0px;
+}
+/* end over right CSS */
+
+
+/* product CSS right */
+.product-item{
+    background-color: #0880f7 !important;
+}
+.child-rows{
+    padding-left: 30px;
+    border-left: 1px solid #dfdfdf;
+    background: white;
+}
+.child-rows a.list-group-item{
+  border-left: 0px!important;
+}
+/* product CSS right end */
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.future-image{
+	max-height: 200px;
+  height: 209px;
+  margin: 2px solid black;
+}
+
+.footer-bottom{
+	padding:20px 0px 10px 0px;
+	color: white;
+  background-color: #0880f7 !important;;
+	margin-top: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
